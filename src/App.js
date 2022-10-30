@@ -1,11 +1,15 @@
 import React from "react";
 import "./style.css";
 
+import UseCallbackDemo from './components/UseCallbackDemo'
+import UseMemoDemo from './components/UseMemoDemo'
+
 export default function App() {
   return (
-    <div>
+    <>
       <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+      {/* <UseCallbackDemo /> */}
+      <UseMemoDemo />
+    </>
   );
 }
